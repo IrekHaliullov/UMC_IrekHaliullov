@@ -2,6 +2,7 @@
 # scalar UmcReferenceId
 
 type Query {
+    events: [Event]
 }
 
 type Mutation {

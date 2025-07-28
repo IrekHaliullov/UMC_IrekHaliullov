@@ -1,0 +1,4 @@
+extend type Query {
+    eventById(id: ID!): Event
+    eventsByVenue(referenceId: ID!): [Event!]!
+}
